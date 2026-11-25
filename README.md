@@ -49,7 +49,8 @@ lake build --no-build
 
 A full build makes Lean check every proof on your machine. The cache downloads files that were
 compiled elsewhere, so you can read and edit the project within minutes, but Lean does not
-re-check them.
+re-check them. The public read path, the receipts it checks and the publishing steps are
+described in [`verification/CACHE.md`](verification/CACHE.md).
 
 ## Checking the proof yourself
 
